@@ -14,7 +14,7 @@ router.post("/addNewExpenses", async function(req, res) {
     res.send(response)
 })
 
-router.delete("/deleteExpenses" , function(req,res){
+router.delete("/deleteExpenses" , async function(req,res){
     
 })
 
